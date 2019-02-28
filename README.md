@@ -19,7 +19,7 @@ In Progress Game |
 
 Declared Variables, Starting Values, and Sounds |
 :------------------:
-![Variables](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/var.JPG) |
+![Declared Variables, Starting Values, and Sounds](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/var.JPG) |
 
 Core Game Logic |
 :------------------:
@@ -29,9 +29,13 @@ Reset Game Function |
 :------------------:
 ![Reset Game Function](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/reset-function.JPG) |
 
-HTML Tags To Be Set By JQuery |
+HTML Text Fields To Be Set By JQuery |
 :------------------:
-![Variables](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/html.JPG) |
+![HTML Text](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/html-text.JPG) |
+
+Image Buttons |
+:------------------:
+![HTML Images](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/html-img.JPG) |
 
 ### The styling for the page was made using bootstrap.  A jumbotron for the game title and statistics, and the grid system to align the crystal images on the screen.
 
