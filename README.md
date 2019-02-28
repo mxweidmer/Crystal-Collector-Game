@@ -29,6 +29,10 @@ Reset Game Function |
 :------------------:
 ![Reset Game Function](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/reset-function.JPG) |
 
+HTML Tags To Be Set By JQuery |
+:------------------:
+![Variables](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/html.JPG) |
+
 ### The styling for the page was made using bootstrap.  A jumbotron for the game title and statistics, and the grid system to align the crystal images on the screen.
 
 ## Technologies Used
