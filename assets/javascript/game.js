@@ -14,6 +14,7 @@ $(document).ready(function () {
     var numToGuess = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
 
     $("#random-number").text(numToGuess);
+    $("#player-score").text(playerScore);
 
     function resetGame() {
         blue = Math.floor(Math.random() * 12) + 1;
@@ -23,29 +24,44 @@ $(document).ready(function () {
 
         numToGuess = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
 
+        playerScore = 0;
+
         $("#random-number").text(numToGuess);
+        $("#player-score").text(playerScore);
     }
 
     $(".crystal-image").on("click", function () {
 
-        switch ($(this).val()) {
-            case "blue":
-                playerScore += blue;
-                break;
-            case "green":
-                playerScore += green;
-                break;
-            case "black":
-                playerScore += black;
-                break;
-            case "white":
-                playerScore += white;
-                break;
+        if (playerScore < numToGuess) {
+            switch ($(this).val()) {
+                case "blue":
+                    playerScore += blue;
+                    $("#player-score").text(playerScore);
+                    break;
+                case "green":
+                    playerScore += green;
+                    $("#player-score").text(playerScore);
+                    break;
+                case "black":
+                    playerScore += black;
+                    $("#player-score").text(playerScore);
+                    break;
+                case "white":
+                    playerScore += white;
+                    $("#player-score").text(playerScore);
+                    break;
+            }
+
+            if (playerScore === numToGuess) {
+                wins++;
+                $("#wins").text(wins);
+                resetGame();
+            } else if (playerScore > numToGuess) {
+                losses++;
+                $("#losses").text(losses);
+                resetGame();
+            }
         }
-
-
-
-
     });
 
 });
