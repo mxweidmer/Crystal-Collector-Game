@@ -6,6 +6,9 @@ $(document).ready(function () {
     var losses = 0;
     var playerScore = 0;
 
+    var winSound = new Audio("assets/win-sound.mp3");
+    var loseSound = new Audio("assets/lose-sound.mp3");
+
     var blue = Math.floor(Math.random() * 12) + 1;
     var green = Math.floor(Math.random() * 12) + 1;
     var black = Math.floor(Math.random() * 12) + 1;
@@ -55,10 +58,12 @@ $(document).ready(function () {
             if (playerScore === numToGuess) {
                 wins++;
                 $("#wins").text(wins);
+                winSound.play();
                 resetGame();
             } else if (playerScore > numToGuess) {
                 losses++;
                 $("#losses").text(losses);
+                loseSound.play();
                 resetGame();
             }
         }
