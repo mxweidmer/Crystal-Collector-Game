@@ -16,7 +16,7 @@ $(document).ready(function () {
     console.log(numToGuess);
 
 
-    $("").on("click", function () {
+    $(".crystal-image").on("click", function () {
 
 
     });
