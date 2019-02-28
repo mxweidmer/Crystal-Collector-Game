@@ -28,6 +28,20 @@ $(document).ready(function () {
 
     $(".crystal-image").on("click", function () {
 
+        switch ($(this).val()) {
+            case "blue":
+                playerScore += blue;
+                break;
+            case "green":
+                playerScore += green;
+                break;
+            case "black":
+                playerScore += black;
+                break;
+            case "white":
+                playerScore += white;
+                break;
+        }
 
 
 
