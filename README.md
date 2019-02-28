@@ -21,9 +21,9 @@ Declared Variables, Starting Values, and Sounds |
 :------------------:
 ![Declared Variables, Starting Values, and Sounds](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/var.JPG) |
 
-Core Game Logic |
+Core Game Logic (Run on click) |
 :------------------:
-![Core Game Logic](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/core.JPG) |
+![Core Game Logic, Run on click](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/core.JPG) |
 
 Reset Game Function |
 :------------------:
