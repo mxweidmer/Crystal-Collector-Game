@@ -3,7 +3,7 @@
 [Deployed Link](https://mxweidmer.github.io/Crystal-Collector-Game/)
 
 ## Description
-### This is a simple guessing game.  The computer randomly picks a letter of the alphabet, and the player has 10 attempts to try and guess which letter was picked by typing keys on the keyboard.  The player can see on the screen all the letters they have attempted before.  If the player repeats a key, the input will be ignored and the player will continue with the same number of guesses left as before.  If the player guesses the correct key, the win tally goes up by one point.  If the number of attempts goes to zero, the player loses and the losses tally goes up by one.  A new random letter is selected each time the play either wins or loses.
+### This is a guessing game, where the computer generates a random number between 19 and 120. The player has 4 options in the form of crystals, each assigned a random value between 1 and 12. When a player clicks on one of the images, that value is added to their score. The goal of the game is to match the computer generated number by clicking on the different valued crystals. If the players score goes over the target number, they lose and a sound effect is played, as well as their losses counter increasing by one. Each time a player wins or loses the game is automatically reset with a new target number and new random values for the crystals.
 
 ## Screenshots
 
@@ -17,7 +17,7 @@ In Progress Game |
 
 ## Code Details
 
-Declared Variables |
+Declared Variables, Starting Values, and Sounds |
 :------------------:
 ![Variables](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/var.JPG) |
 
@@ -25,17 +25,19 @@ Core Game Logic |
 :------------------:
 ![Core Game Logic](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/core.JPG) |
 
-Functions |
+Reset Game Function |
 :------------------:
-![Functions](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/functions.JPG) |
+![Reset Game Function](https://github.com/mxweidmer/Crystal-Collector-Game/blob/master/assets/images/reset-function.JPG) |
 
-### The styling for the page was made using bootstrap.  A jumbotron for the title bar, and the grid system to align the game statistics on the screen.
+### The styling for the page was made using bootstrap.  A jumbotron for the game title and statistics, and the grid system to align the crystal images on the screen.
 
 ## Technologies Used
 * HTML
 * Javascript
+* CSS
 * JQuery
 * Bootstrap
+
 
 ### Credit to:
 * http://clipart-library.com/crystal-cliparts.html for crystal images
